@@ -55,7 +55,7 @@ const BannerOne = () => {
                   data-aos-duration='1500'
                   to='/about'
                 >
-                  Discover More <FaPlus />
+                  Discover More <FaPlus/>
                 </Link>
               </div>
             </div>
@@ -83,7 +83,8 @@ const BannerOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/banner/1.png'
+                  // src='assets/img/banner/1.png'
+                  src="assets/img/homeimg1.jpg"
                   alt='img'
                 />
               </div>
