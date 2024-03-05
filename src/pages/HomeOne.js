@@ -17,6 +17,7 @@ const HomeOne = () => {
   return (
     <>
       {/* Navigation Bar */}
+      
       <NavBar />
 
       {/* Banner One */}

@@ -119,7 +119,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Contacts us</h5>
-                  <h6>88 01234 2345 12</h6>
+                  <h6>+91 9045301702</h6>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Your Email</h5>
-                  <h6>Comism@mail.com</h6>
+                  <h6>info@kusheldigi.com</h6>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Location</h5>
-                  <h6>99 united,America</h6>
+                  <h6>G-9, first Floor, Sector 63, Noida</h6>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ const ContactMain = () => {
       </div>
       {/* Map  */}
       <div className='contact-g-map'>
-        <iframe src='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.601361499546!2d90.3598076!3d23.7803374!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1589109092857!5m2!1sen!2sbd' />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3954123429044!2d77.3860107742401!3d28.617908984746908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce49f5d8cdc4b%3A0xedb207949cd07d2b!2sKushel%20Digi%20Solutions%20-%20Web%20Design%20Company%20Noida%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sin!4v1681368789327!5m2!1sen!2sin" />
       </div>
 
       {/* ================= Contact Main End =================*/}

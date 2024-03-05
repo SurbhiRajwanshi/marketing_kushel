@@ -39,7 +39,9 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className='widget widget_author text-center'>
                   <div className='thumb'>
-                    <img src='assets/img/about/9.png' alt='img' />
+                    {/* <img src='assets/img/about/9.png' alt='img' /> */}
+                    <img src='assets/img/about/skc2.jpg' alt='img' />
+
                   </div>
                   <div className='details'>
                     <a className='btn btn-base border-radius-5' href='#'>
@@ -72,7 +74,9 @@ const ServiceDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner mb-0'>
                   <div className='thumb'>
-                    <img src='assets/img/service/7.png' alt='img' />
+                    {/* <img src='assets/img/service/7.png' alt='img' /> */}
+                    <img src='assets/img/about/skc1jpg.jpg' alt='img' />
+
                   </div>
                   <div className='details'>
                     <h4>

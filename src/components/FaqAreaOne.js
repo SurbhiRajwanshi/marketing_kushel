@@ -19,7 +19,7 @@ const FaqAreaOne = () => {
               <div className='about-thumb-inner pt-lg-3'>
                 <img
                   className='main-img'
-                  src='assets/img/about/4.png'
+                  src='assets/img/about/homeimg3.jpg'
                   alt='img'
                 />
                 <img
