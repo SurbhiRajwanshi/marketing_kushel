@@ -79,6 +79,8 @@ const TeamAreaThree = () => {
                 <div className='single-team-inner text-center border-radius-5 bg-white'>
                   <div className='thumb bg-gray border-radius-5'>
                     <img src='assets/img/team/1.png' alt='img' />
+                    {/* <img src='assets/img/team/marketingsk1jpg.jpg' alt='img' /> */}
+
                     <ul className='team-social-inner border-radius-5 sky'>
                       <li>
                         <a href='#'>

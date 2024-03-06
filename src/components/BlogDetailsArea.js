@@ -24,7 +24,9 @@ const BlogDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner'>
                   <div className='thumb'>
-                    <img src='assets/img/blog/1.png' alt='img' />
+                    {/* <img src='assets/img/blog/1.png' alt='img' /> */}
+                    <img src='assets/img/blog/Rrr (1).jpg' alt='img' />
+
                   </div>
                   <div className='details'>
                     <ul className='blog-meta'>

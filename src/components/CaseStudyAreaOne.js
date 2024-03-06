@@ -23,7 +23,7 @@ const CaseStudyAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/case-study/reluctionimg1.jpg' alt='img' />
+                  <img src='assets/img/case-study/reluctionimg3.jpg' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -41,7 +41,7 @@ const CaseStudyAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/case-study/reluctionimg2.jpg' alt='img' />
+                  <img src='assets/img/case-study/reluctionimg3.jpg' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
