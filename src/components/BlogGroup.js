@@ -23,7 +23,7 @@ const BlogGroup = () => {
             <div className='col-lg-8'>
               <div className='single-blog-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/1.png' alt='img' />
+                  <img src='assets/img/blog/blogsk1.jpg' alt='img' />
                   <span className='date'>15 DEC</span>
                 </div>
                 <div className='details'>
@@ -58,7 +58,7 @@ const BlogGroup = () => {
               </div>
               <div className='single-blog-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/2.png' alt='img' />
+                  <img src='assets/img/blog/blogsk2.jpg' alt='img' />
                   <span className='date'>15 DEC</span>
                 </div>
                 <div className='details'>
@@ -93,7 +93,7 @@ const BlogGroup = () => {
               </div>
               <div className='single-blog-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/3.png' alt='img' />
+                  <img src='assets/img/blog/blogsk3.png' alt='img' />
                   <span className='date'>15 DEC</span>
                 </div>
                 <div className='details'>
@@ -152,7 +152,9 @@ const BlogGroup = () => {
               <div className='td-sidebar'>
                 <div className='widget widget_author text-center'>
                   <div className='thumb'>
-                    <img src='assets/img/about/7.png' alt='img' />
+                    {/* <img src='assets/img/about/7.png' alt='img' /> */}
+                    <img src='assets/img/blog/blogsk4.jpg' alt='img' />
+
                   </div>
                   <div className='details'>
                     <h5>Leslie Alexander</h5>

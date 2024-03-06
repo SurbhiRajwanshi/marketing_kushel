@@ -19,7 +19,9 @@ const TeamDetailsGroup = () => {
             <div className='row'>
               <div className='col-lg-5 text-center'>
                 <div className='thumb mb-4 mb-lg-0'>
-                  <img src='assets/img/team/7.png' alt='img' />
+                  {/* <img src='assets/img/team/7.png' alt='img' /> */}
+                  <img src='assets/img/team/minerheadshot (1).jpg' alt='img' />
+
                 </div>
               </div>
               <div className='col-lg-7 align-self-center ps-xl-5'>
