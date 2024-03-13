@@ -39,19 +39,19 @@ const HomeOne = () => {
       <TeamAreaOne />
 
       {/* Counter Area One */}
-      <CounterAreaOne />
+      {/* <CounterAreaOne /> */}
 
       {/* Contact Area One */}
-      <ContactAreaOne />
+      {/* <ContactAreaOne /> */}
 
       {/* Work Process One */}
       <WorkProcessOne />
 
       {/* Pricing Area One */}
-      <PricingAreaOne />
+      {/* <PricingAreaOne /> */}
 
       {/* Blog Area One */}
-      <BlogAreaOne />
+      {/* <BlogAreaOne /> */}
 
       {/* Footer One */}
       <FooterOne />

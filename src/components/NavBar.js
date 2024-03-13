@@ -97,19 +97,21 @@ const NavBar = () => {
                
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>About</a>
-                <ul className='sub-menu'>
+                <Link to="/about">About</Link>
+                {/* <a href='#'>About</a> */}
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/service'>Service</Link>
                   </li>
                   <li>
                     <Link to='/service-details'>Service Single</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Projects</a>
-                <ul className='sub-menu'>
+              <Link to='/'>Projects </Link>
+                {/* <a href='#'>Projects</a> */}
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
                   </li>
@@ -122,16 +124,36 @@ const NavBar = () => {
                   <li>
                     <Link to='/case-study-details'>Case Study Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Services</a>
+              <Link to='/service'>Services </Link>
+                {/* <a href='#'>Services</a> */}
                 <ul className='sub-menu'>
-                  <li>
+                  {/* <li>
                     <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
                     <Link to='/blog-details'>Blog Details</Link>
+                  </li> */}
+                  <li>
+                    <Link to='/'>Search Engine Optimization (SEO)</Link>
+                  </li>
+                  <li>
+                    <Link to='/'>Content Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to='/'>Social Media Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to='/'>Email Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to='/'>Pay-Per-Click (PPC) Advertising</Link>
+                  </li>
+                 
+                  <li>
+                    <Link to='/'> Influencer Marketing</Link>
                   </li>
                 </ul>
               </li>

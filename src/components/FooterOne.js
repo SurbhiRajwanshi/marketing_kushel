@@ -8,7 +8,10 @@ import {
   FaPhoneAlt,
   FaTwitter,
   FaYoutube,
+  FaLinkedin
+  
 } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import img2 from "../imagess/Kds2.png";
 const FooterOne = () => {
@@ -41,7 +44,9 @@ const FooterOne = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_about'>
                 <div className='thumb'>
+                  <a href="https://www.kusheldigi.com/">
                   <img src={ img2 } alt='img' />
+                  </a>
                 </div>
                 <div className='details'>
                   <p>
@@ -57,23 +62,23 @@ const FooterOne = () => {
                   </p>
                   <ul className='social-media'>
                     <li>
-                      <a href='#'>
+                      <a href='https://www.facebook.com/kusheldigisolutions'>
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='https://twitter.com/KushelDigisoln'>
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='https://www.instagram.com/kusheldigi/'>
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
-                        <FaYoutube />
+                      <a href='https://www.linkedin.com/company/kusheldigisolutions/'>
+                        < FaLinkedin  />
                       </a>
                     </li>
                   </ul>
@@ -83,7 +88,7 @@ const FooterOne = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_nav_menu'>
                 <h4 className='widget-title'>Our Service</h4>
-                <ul>
+                {/* <ul>
                   <li>
                     <Link to='/service'>
                       <FaArrowRight /> Ui Design
@@ -99,19 +104,51 @@ const FooterOne = () => {
                       <FaArrowRight /> Digital marketing{" "}
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link to='/service'>
                       <FaArrowRight /> Video Editing
                     </Link>
-                  </li> */}
-                  {/* <li>
+                  </li>
+                  <li>
                     <Link to='/service'>
                       <FaArrowRight /> Pc Repairs
                     </Link>
-                  </li> */}
+                  </li>
                   <li>
                     <Link to='/service'>
                       <FaArrowRight /> Web Development
+                    </Link>
+                  </li>
+                </ul> */}
+                <ul>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Search Engine Optimization (SEO)
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Content Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Social Media Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight />Email Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Pay-Per-Click (PPC) Advertising
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to='/service'>
+                      <FaArrowRight /> Influencer Marketing
                     </Link>
                   </li>
                 </ul>
@@ -203,7 +240,8 @@ const FooterOne = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-6 align-self-center'>
-                <p>2023 Kushel digi. All rights reserved.</p>
+                {/* <p>2023 Kushel digi. All rights reserved.</p> */}
+              <a href="https://www.kusheldigi.com/" id="achortag"> 2023 Kushel digi. All rights reserved.</a>
               </div>
               <div className='col-md-6 text-lg-end'>
                 <a href='#'>Trams &amp; Condition</a>
