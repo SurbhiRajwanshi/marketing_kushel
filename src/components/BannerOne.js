@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import digitalmarketing from "../imagess/digital-marketing-will-advance-your-career.webp"
 
 const BannerOne = () => {
   return (
@@ -30,7 +31,8 @@ const BannerOne = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  DESIGNING FOR THE FUTURE
+                  {/* DESIGNING FOR THE FUTURE */}
+                  DESIGNING FOR DIGITAL MARKETING
                 </h6>
                 <h2
                   className='title'
@@ -38,7 +40,9 @@ const BannerOne = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                 Ignite Your Business with <span>Innovative Software Management</span> 
+                 {/* Ignite Your Business with <span>Innovative Software Management</span>  */}
+                 Digital marketing depending <span>on the platform the marketing.</span> 
+                 {/* Digital marketing can vary widely depending on the platform and the goals of the marketing campaign. */}
                 </h2>
                 <p
                   className='content pe-xl-5'
@@ -46,7 +50,7 @@ const BannerOne = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-               Embark on a journey of efficient business management through cutting-edge software solutions. Kushel Digi Solution is your strategic ally in embracing the power of advanced software for unparalleled business management.
+               Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Businesses leverage digital channels such as search engines, social media, email, and other websites to connect with current and prospective customers.
                 </p>
                 <Link
                   className='btn btn-border-base'
@@ -84,7 +88,8 @@ const BannerOne = () => {
                 <img
                   className='main-img'
                   // src='assets/img/banner/1.png'
-                  src="assets/img/homeimg1.jpg"
+                  // src="assets/img/homeimg1.jpg"
+                  src={digitalmarketing}
                   alt='img'
                 />
               </div>

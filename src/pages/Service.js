@@ -4,6 +4,7 @@ import FooterOne from "../components/FooterOne";
 import NavBar from "../components/NavBar";
 import PricingAreaOne from "../components/PricingAreaOne";
 import ServiceAreaGroup from "../components/ServiceAreaGroup";
+import CaseStudyAreaOne from "../components/CaseStudyAreaOne";
 
 const Service = () => {
   return (
@@ -18,7 +19,11 @@ const Service = () => {
       <ServiceAreaGroup />
 
       {/* Pricing Area One */}
-      <PricingAreaOne />
+      {/* <PricingAreaOne /> */}
+
+
+      {/* Case Study Area One */}
+      <CaseStudyAreaOne />
 
       {/* Footer One */}
       <FooterOne />

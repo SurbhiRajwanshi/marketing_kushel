@@ -11,7 +11,8 @@ const TeamAreaOne = () => {
           <div className='section-title text-center'>
             <h6 className='sub-title'>MEET OUR EXPERTS</h6>
             <h2 className='title'>
-              Your Partner In <span>Digital</span> Success
+              {/* Your Partner In <span>Digital</span> Success */}
+               Our <span>Success</span> Story
             </h2>
           </div>
           <div className='row'>
@@ -39,7 +40,8 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Devon Lane</Link>
+                  {/* <Link to='/team-details'>Devon Lane</Link> */}
+                  <Link to='/team-details'> Project-1 </Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -69,7 +71,8 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Darrell Steward</Link>
+                  {/* <Link to='/team-details'>Darrell Steward</Link> */}
+                  <Link to='/team-details'>Project -2</Link>
                   </h5>
                   <p>It Department</p>
                 </div>
@@ -99,7 +102,8 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Bessie Cooper</Link>
+                  {/* <Link to='/team-details'>Bessie Cooper</Link> */}
+                  <Link to='/team-details'>Project -3</Link>
                   </h5>
                   <p>Software Department</p>
                 </div>

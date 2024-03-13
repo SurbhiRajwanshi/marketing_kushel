@@ -247,3 +247,19 @@
     border-top: 1px solid #e3e3e3;
   }
 }
+
+
+$primary-color: blue;
+
+#achortag {
+  // background-color: $primary-color;
+  color: #ffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    color: darken($primary-color, 10%);
+  }
+}

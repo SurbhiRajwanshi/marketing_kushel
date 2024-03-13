@@ -1,4 +1,6 @@
 import React from "react";
+import pic from "../imagess/digital marketing.jpg"
+
 
 const AboutAreaOne = () => {
   return (
@@ -31,7 +33,8 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/homeimg2.jpeg'
+                  src={pic}
+                  // src='assets/img/homeimg2.jpeg'
                   alt='img'
                 />
               </div>
@@ -44,13 +47,19 @@ const AboutAreaOne = () => {
             >
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
-                <h2 className='title'>
+                {/* <h2 className='title'>
                   It Is A Critical Component Of <span>Modern</span> Businesses
+                </h2> */}
+                <h2 className='title'>
+                  {/* It Is A Critical Component Of <span>Digital marketing</span> Businesses */}
+                  It Is A Critical Component Of <span>Digital marketing</span> Businesses
+                  
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  Lorem Ipsum is simply dummy text of the printing and
+                  {/* Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  standard dummy */}
+                  Digital marketing is the use of online channels and technologies to promote products, services, or brands to a target audience.
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
